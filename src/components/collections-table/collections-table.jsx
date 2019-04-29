@@ -220,7 +220,7 @@ class CollectionsTable extends PureComponent {
             sortOrder={this.props.sortOrder}
             sortColumn={this.props.sortColumn}
             valueIndex={0}
-            removable={this.props.isWritable && !this.props.isReadonly}
+            removable={this.props.isWritable}
             onColumnHeaderClicked={this.onHeaderClicked}
             onRowDeleteButtonClicked={this.onDeleteClicked} />
         </div>
