@@ -57,11 +57,11 @@ class Toolbar extends PureComponent {
             className="btn btn-primary btn-xs"
             dataTestId="open-create-collection-modal-button"
             text="Create Collection"
-            tooltipId="collection-ddl-is-not-writable"
+            tooltipId="collections-ddl-is-not-writable"
             disabled
             clickHandler={this.onShowCreateCollection}
           />
-          <Tooltip id="collection-ddl-is-not-writable" place="right"/>
+          <Tooltip id="collections-ddl-is-not-writable" place="right"/>
         </div>
       );
     }
@@ -71,7 +71,7 @@ class Toolbar extends PureComponent {
           className="btn btn-primary btn-xs"
           dataTestId="open-create-collection-modal-button"
           text="Create Collection"
-          tooltipId="collection-ddl-is-not-writable"
+          tooltipId="collections-ddl-is-not-writable"
           clickHandler={this.onShowCreateCollection}
         />
       );
